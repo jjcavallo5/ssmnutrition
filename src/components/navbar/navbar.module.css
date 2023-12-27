@@ -1,0 +1,12 @@
+.navContainer {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-self: end;
+}
+
+.links {
+    color: #444;
+    text-decoration: none;
+}
