@@ -3,3 +3,41 @@
     flex-direction: column;
     padding: 1rem;
 }
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 460px;
+    gap: 1rem;
+    justify-content: center;
+}
+
+input, select {
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 500px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color:#ea369c;
+    color: white;
+}
+
+.submit:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

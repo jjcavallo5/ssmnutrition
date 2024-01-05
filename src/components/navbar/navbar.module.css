@@ -1,12 +1,24 @@
 .navContainer {
-    width: 800px;
+    max-width: 1200px;
+    width: 90%;
     display: flex;
+    position: relative;
     flex-direction: row;
     gap: 2rem;
-    align-self: end;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
 }
 
 .links {
     color: #444;
     text-decoration: none;
+}
+
+.links:hover {
+    color: var(--accent)
 }

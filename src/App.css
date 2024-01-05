@@ -4,5 +4,8 @@
 
 html { 
   font-size: 16px;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --accent: #ea369c;
+  --text: #444;
+  --background: #dfdfdf
 }
