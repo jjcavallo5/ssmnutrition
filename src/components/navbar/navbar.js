@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./navbar.module.css";
 
 import { Link } from "react-router-dom";
-import logo from "../../images/SAMPLE_logo.jpeg";
 
 const NavBar = () => {
     return (

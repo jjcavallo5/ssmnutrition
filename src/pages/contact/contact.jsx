@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styles from "./contact.module.css";
 
-import NavBar from "../../components/navbar/navbar";
 import SocialsLinks from "../../components/socials/socials";
 import Footer from "../../components/footer/footer";
+import Header from "../../components/header/header";
 
 const ContactPage = () => {
     const [formValues, setFormValues] = useState({
@@ -21,7 +21,7 @@ const ContactPage = () => {
 
     return (
         <div className={styles.container}>
-            <NavBar />
+            <Header />
             <div className={styles.header}>
                 <h1>Connect With Me</h1>
                 <p>Have a question about your nutritional goals?</p>
