@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./contact.module.css";
 
 import NavBar from "../../components/navbar/navbar";
+import SocialsLinks from "../../components/socials/socials";
 
 const ContactPage = () => {
     const [formValues, setFormValues] = useState({
@@ -21,7 +22,7 @@ const ContactPage = () => {
         <div className={styles.container}>
             <NavBar />
             <div className={styles.header}>
-                <h1>Contact</h1>
+                <h1>Connect With Me</h1>
                 <p>Have a question about your nutritional goals?</p>
                 <h2>Contact me by filling out the form!</h2>
             </div>
@@ -101,6 +102,8 @@ const ContactPage = () => {
                     }}
                 />
             </form>
+
+            <SocialsLinks />
         </div>
     );
 };
