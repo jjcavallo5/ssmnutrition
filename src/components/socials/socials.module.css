@@ -10,15 +10,11 @@
     align-items: center;
 }
 
-.logo {
-    height: 150px;
+.mediaIcon {
+    color: white;
+    background-color: blue;
 }
 
-.links {
-    color: #444;
-    text-decoration: none;
-}
-
-.links:hover {
-    color: var(--accent)
+.mediaIcon:hover {
+    cursor: pointer;
 }
