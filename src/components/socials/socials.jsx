@@ -10,10 +10,13 @@ import EmailIcon from "../../icons/email";
 const SocialsLinks = () => {
     return (
         <div className={styles.navContainer}>
-            <InstagramIcon size={32} />
-            <TwitterIcon size={32} />
-            <PhoneIcon size={32} />
-            <EmailIcon size={32} />
+            <h2>Join my community!</h2>
+            <div className={styles.iconsContainer}>
+                <InstagramIcon size={32} />
+                <TwitterIcon size={32} />
+                <PhoneIcon size={32} />
+                <EmailIcon size={32} />
+            </div>
         </div>
     );
 };

@@ -25,7 +25,6 @@ const NavBar = () => {
             <Link className={styles.links} to="/contact">
                 Contact Me
             </Link>
-            <img src={logo} className={styles.logo} />
         </div>
     );
 };

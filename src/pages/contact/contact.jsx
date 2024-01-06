@@ -3,6 +3,7 @@ import styles from "./contact.module.css";
 
 import NavBar from "../../components/navbar/navbar";
 import SocialsLinks from "../../components/socials/socials";
+import Footer from "../../components/footer/footer";
 
 const ContactPage = () => {
     const [formValues, setFormValues] = useState({
@@ -104,6 +105,7 @@ const ContactPage = () => {
             </form>
 
             <SocialsLinks />
+            <Footer />
         </div>
     );
 };
