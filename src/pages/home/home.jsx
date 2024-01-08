@@ -48,6 +48,25 @@ const HomePage = () => {
                         </button>
                     </div>
                 </div>
+
+                <div className={styles.callToAction}>
+                    <h1 className={styles.ifYouAre}>If you are...</h1>
+                    <ul className={styles.list}>
+                        <li>Looking to enhance athletic performance</li>
+                        <li>
+                            Wondering how nutrition can be utilized to improve
+                            recovery
+                        </li>
+                        <li>
+                            Looking to lose weight in a healthy and sustainable
+                            way
+                        </li>
+                    </ul>
+
+                    <button className={styles.callToActionButton}>
+                        Lets Talk!
+                    </button>
+                </div>
             </div>
             <Footer />
         </div>
