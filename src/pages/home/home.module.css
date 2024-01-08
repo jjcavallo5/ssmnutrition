@@ -3,3 +3,108 @@
     flex-direction: column;
     padding: 1rem;
 }
+
+.header {
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+.headerImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.headerText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    z-index: 1;
+    background-color: transparent;
+    height: 400px;
+    max-width: 400px;
+    background-color: #45454599;
+    
+}
+
+.getStarted {
+    width: 100%;
+    height: 50px;
+    background-color: var(--accent);
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.getStarted:hover {
+    cursor: pointer;
+}
+
+.level {
+    color: white;
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+.nutrition {
+    color: white;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
+}
+
+.about {
+    width: 100%;
+    padding: 6rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.aboutText {
+    width: 300px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutButton {
+    width: 70%;
+    background-color: var(--accent);
+    font-size: 1rem;
+    color: white;
+    border: none;
+    height: 40px;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.aboutButton:hover {
+    cursor: pointer;
+}
+
+
+.zahidRunning {
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 15px 15px 0 var(--accent);
+}
+
+
+
+@media (min-width: 1000px) {
+    .about {
+        flex-direction: row;
+    }
+}
