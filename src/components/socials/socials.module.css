@@ -4,13 +4,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 
+}
+
+.navContainer > * {
+    background-color: transparent;
 }
 
 .iconsContainer {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+.iconsContainer > * {
+    background-color: transparent;
 }
 
 h2 {
