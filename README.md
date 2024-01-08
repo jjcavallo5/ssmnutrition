@@ -10,5 +10,11 @@ Website for online nutrition consulting
 
     -   Built basic navigation, did market research
 
--   01/05/2024 - 1.5 Hours
+-   01/05/2024 - 2.5 Hours
     -   Built form on contact page
+    -   Made Logo
+
+-01/07/2024 - 3 Hours
+    -   Imported logo into project
+    -   Placed logo in header and footer
+    -   Made new header and footer components
