@@ -21,6 +21,7 @@ Website for online nutrition consulting
     -   Placed logo in header and footer
     -   Made new header and footer components
 
--   01/08/2024 - X Hours
+-   01/08/2024 - 3 Hours
     -   Added background image to contact page
     -   Made responsiveness on contact page better
+    -   Added basic homescreen
