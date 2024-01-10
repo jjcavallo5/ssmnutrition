@@ -5,6 +5,7 @@ import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 
 import zahidRunning from "../../images/runningZahid.jpg";
+import graduationZahid from "../../images/graduationZahid.jpg";
 
 const AboutPage = () => {
     return (
@@ -40,7 +41,40 @@ const AboutPage = () => {
                 </div>
             </div>
 
-            <div className={styles.qualificationsContainer}></div>
+            <div className={styles.qualificationsContainer}>
+                <img
+                    src={graduationZahid}
+                    alt="An image of Zahid in his cap and gown"
+                    srcset=""
+                    className={styles.graduationZahid}
+                />
+
+                <div className={styles.qualificationsRightSide}>
+                    <h1 className={styles.qualificationsHeader}>
+                        My Qualifications
+                    </h1>
+                    <div className={styles.qualificationsListItems}>
+                        <h2 className={styles.qualificationName}>
+                            Registered Dietitian
+                        </h2>
+                        <h3 className={styles.qualificationLocation}>
+                            IDK where this is from
+                        </h3>
+                        <h2 className={styles.qualificationName}>
+                            Bachelors of Science in Dietetics
+                        </h2>
+                        <h3 className={styles.qualificationLocation}>
+                            Wayne State University
+                        </h3>
+                        <h2 className={styles.qualificationName}>
+                            2 Years of Clinical Experience
+                        </h2>
+                        <h3 className={styles.qualificationLocation}>
+                            IDK where
+                        </h3>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </div>
     );

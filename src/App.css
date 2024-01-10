@@ -7,5 +7,6 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   --accent: #ea369c;
   --text: #444;
-  --background: #dfdfdf
+  --background: #dfdfdf;
+  --accented_background: #0CDCF0;
 }

@@ -62,8 +62,76 @@
     width: 90%;
 }
 
+.qualificationsContainer {
+    background-color: var(--accented_background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 4rem 0;
+    gap: 4rem;
+}
+
+.qualificationsContainer > * {
+    background-color: transparent;
+}
+
+.graduationZahid {
+    width: 90%;
+    max-width: 300px;
+
+}
+
+.qualificationsRightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.qualificationsHeader {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: -1px;
+    background-color: transparent;
+    
+}
+
+.qualificationsListItems {
+    border-left: 3px solid var(--accent);
+    background-color: transparent;
+    padding: 0 0 0 2rem;
+    color: var(--text)
+}
+
+.qualificationName {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: transparent;
+    margin-bottom: 0;
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+
+.qualificationLocation {
+    text-transform: uppercase;
+    font-weight: 200;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 0 0 3rem 0;
+
+}
+
+.qualificationLocation:last-child { 
+    margin: 0 0 1rem 0;
+}
+
+
 @media (min-width: 1000px) {
     .bodyContainer {
+        flex-direction: row;
+    }
+
+    .qualificationsContainer {
         flex-direction: row;
     }
 }
