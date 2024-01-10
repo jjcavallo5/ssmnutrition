@@ -3,3 +3,67 @@
     flex-direction: column;
     padding: 1rem;
 }
+
+
+.bodyContainer {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    margin: 6rem 0 6rem 0;
+    align-self: center;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+}
+
+.header {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.subHeader {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+    margin: 0 0 2rem 0;
+}
+
+.rightSideText {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: var(--text);
+}
+
+.meetNow {
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: var(--accent);
+    align-self: center;
+    margin-top: 1rem;;
+}
+
+.meetNow:hover {
+    cursor: pointer;
+}
+
+.zahidRunning { 
+    box-shadow: 10px 10px 0px var(--accent);
+    max-width: 500px;
+    width: 90%;
+}
+
+@media (min-width: 1000px) {
+    .bodyContainer {
+        flex-direction: row;
+    }
+}

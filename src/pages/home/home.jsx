@@ -5,7 +5,7 @@ import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 
 import hikingZahid from "../../images/hikingZahidTwo.jpg";
-import runningZahid from "../../images/runningZahid.jpg";
+import dietitianZahid from "../../images/dietitianZahid.jpg";
 
 const HomePage = () => {
     return (
@@ -15,7 +15,7 @@ const HomePage = () => {
                 <div className={styles.header}>
                     <img
                         src={hikingZahid}
-                        alt="A picture of zahid hiking in the mountains"
+                        alt="A picture of zahid working in a hospital"
                         srcset=""
                         className={styles.headerImage}
                     />
@@ -31,7 +31,7 @@ const HomePage = () => {
 
                 <div className={styles.about}>
                     <img
-                        src={runningZahid}
+                        src={dietitianZahid}
                         alt="A picture of zahid running"
                         srcset=""
                         className={styles.zahidRunning}
