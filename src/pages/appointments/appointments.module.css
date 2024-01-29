@@ -3,3 +3,110 @@
     flex-direction: column;
     padding: 1rem;
 }
+
+.header {
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.headerTextCover {
+    z-index: 1;
+    background-color: #00000099;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.header h2 {
+    background-color: transparent;
+    color: white;
+}
+
+.coachingOptionsHeader {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    background-color: transparent;
+    color: var(--text);
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.coachingOptionsHeader2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.5rem;
+    padding: 0rem 0 6rem 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    width: 200px;
+
+}
+
+.card h2 {
+    font-weight: bold;
+    border-bottom: 1px solid var(--accent);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card button {
+    background-color: var(--accent);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.card button:hover {
+    cursor: pointer;
+}
