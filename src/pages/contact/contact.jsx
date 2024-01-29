@@ -5,7 +5,7 @@ import SocialsLinks from "../../components/socials/socials";
 import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 
-import snowyZahid from "../../images/snowyZahid.jpg";
+import snowyZahid from "../../images/topOfMountainZahid.jpg";
 
 const ContactPage = () => {
     const [formValues, setFormValues] = useState({
