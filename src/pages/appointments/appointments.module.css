@@ -83,30 +83,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    /* padding: 2rem; */
 
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px black;
-    width: 200px;
+    /* border-radius: 20px;
+    box-shadow: 1px 1px 5px black; */
+    background-color: #ccc;
+    width: 250px;
 
+}
+
+.card > * {
+    background-color: #ccc;
+
+}
+
+.cardImage {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card h2 {
     font-weight: bold;
-    border-bottom: 1px solid var(--accent);
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
+}
+
+.card p {
+    padding: 1rem;
 }
 
 .card button {
-    background-color: var(--accent);
-    padding: 1rem 2rem 1rem 2rem;
-    border-radius: 10px;
     border: none;
-    color: white;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
 }
 
 .card button:hover {
     cursor: pointer;
+}
+
+.card button h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #ccc;
 }

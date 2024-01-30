@@ -3,8 +3,12 @@ import styles from "./appointments.module.css";
 
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
+import ArrowIcon from "../../icons/arrowIcon";
 
 import healthyFood from "../../images/healthyFood.jpg";
+import oneOnOne from "../../images/1on1coaching.jpg";
+import groupCoaching from "../../images/groupCoaching.jpg";
+import planning from "../../images/planning.jpg";
 
 const AppointmentsPage = () => {
     return (
@@ -29,27 +33,60 @@ const AppointmentsPage = () => {
             <div className={styles.cardContainer}>
                 <div className={styles.card}>
                     <h2>1:1 Coaching</h2>
+                    <img
+                        src={oneOnOne}
+                        alt=""
+                        srcset=""
+                        className={styles.cardImage}
+                    />
                     <p>
                         One-on-one coaching, designed specifically to fit your
                         nutrition and performance goals.
                     </p>
-                    <button>Learn More</button>
+                    <button>
+                        <h2>Learn More</h2>
+                        <ArrowIcon
+                            style={{ height: "3rem", backgroundColor: "#ccc" }}
+                        />
+                    </button>
                 </div>
                 <div className={styles.card}>
                     <h2>Virtual Group Session</h2>
+                    <img
+                        src={groupCoaching}
+                        alt=""
+                        srcset=""
+                        className={styles.cardImage}
+                    />
                     <p>
                         Online session with a team or large group, outlining the
                         most important aspects of nutrition.
                     </p>
-                    <button>Learn More</button>
+                    <button>
+                        <h2>Learn More</h2>
+                        <ArrowIcon
+                            style={{ height: "3rem", backgroundColor: "#ccc" }}
+                        />
+                    </button>
                 </div>
                 <div className={styles.card}>
                     <h2>Meal Planning</h2>
+                    <img
+                        src={planning}
+                        alt=""
+                        srcset=""
+                        className={styles.cardImage}
+                    />
                     <p>
                         A generic or personalized meal plan to fit your specific
                         nutrition and performance goals.
                     </p>
-                    <button>Learn More</button>
+                    <button>
+                        <h2>Learn More</h2>
+                        <ArrowIcon
+                            style={{ height: "3rem", backgroundColor: "#ccc" }}
+                        />
+                    </button>
                 </div>
             </div>
             <Footer />
