@@ -9,6 +9,7 @@ import healthyFood from "../../images/healthyFood.jpg";
 import oneOnOne from "../../images/1on1coaching.jpg";
 import groupCoaching from "../../images/groupCoaching.jpg";
 import planning from "../../images/planning.jpg";
+import zahidRunning from "../../images/runningZahid.jpg";
 
 const AppointmentsPage = () => {
     return (
@@ -98,6 +99,76 @@ const AppointmentsPage = () => {
                         Zahid's consulting company"
                     </p>
                     <h2>A loyal customer</h2>
+                </div>
+            </div>
+
+            <div className={styles.coachingOptions}>
+                <h1 className={styles.coachingOptionsHeader}>
+                    What does my coaching offer?
+                </h1>
+                <h2>Let's dive a little deeper</h2>
+
+                <div className={styles.oneOnOneDescription}>
+                    <div className={styles.oneOneOneText}>
+                        <h2>One-on-one coaching</h2>
+                        <p>
+                            My one-on-one coaching plan is perfect for whatever
+                            your needs may be. You'll book a session with me,
+                            and we will go over your precise nutrition goals and
+                            develop a plan to meet them.
+                        </p>
+                        <button>
+                            <h2>Book Appointment Now</h2>
+                            <ArrowIcon
+                                style={{
+                                    height: "3rem",
+                                }}
+                            />
+                        </button>
+                    </div>
+                    <img src={zahidRunning} alt="" srcset="" />
+                </div>
+
+                <div className={styles.teamCoachingDescription}>
+                    <img src={groupCoaching} alt="" srcset="" />
+                    <div className={styles.oneOneOneText}>
+                        <h2>team coaching</h2>
+                        <p>
+                            My virtual team coaching is perfect for coaches
+                            looking to educate their team on the importance of
+                            nutrition. I'll cover the basics of a healthy diet
+                            for performance and recovery.
+                        </p>
+                        <button>
+                            <h2>Book Virtual Session</h2>
+                            <ArrowIcon
+                                style={{
+                                    height: "3rem",
+                                }}
+                            />
+                        </button>
+                    </div>
+                </div>
+
+                <div className={styles.mealPlanningDescription}>
+                    <div className={styles.oneOneOneText}>
+                        <h2>Meal Planning</h2>
+                        <p>
+                            My meal planning takes your nutrition goals and
+                            transforms them into a meal plan. These range from
+                            personlized specifically to you to generic to meet a
+                            general goal.
+                        </p>
+                        <button>
+                            <h2>Order meal plan</h2>
+                            <ArrowIcon
+                                style={{
+                                    height: "3rem",
+                                }}
+                            />
+                        </button>
+                    </div>
+                    <img src={planning} alt="" srcset="" />
                 </div>
             </div>
             <Footer />
