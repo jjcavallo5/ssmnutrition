@@ -170,6 +170,14 @@ const AppointmentsPage = () => {
                     </div>
                     <img src={planning} alt="" srcset="" />
                 </div>
+
+                <div className={styles.finalThoughts}>
+                    <h1>Take the next step towards better nutrition</h1>
+                    <h2>
+                        No matter who you are, I am here to help you reach your
+                        goals!
+                    </h2>
+                </div>
             </div>
             <Footer />
         </div>

@@ -55,7 +55,7 @@
     color: var(--text);
     width: 100%;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 8rem;
     margin-bottom: 0;
 }
 
@@ -63,7 +63,7 @@
     width: 100%;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .cardContainer {
@@ -151,7 +151,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8rem 0 2rem 0;
+    padding: 8rem 0 4rem 0;
 
 }
 
@@ -183,6 +183,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 4rem;
 }
 
 .coachingOptions h2 {
@@ -212,6 +213,11 @@
     max-width: 400px;
     padding: 1rem;
     margin-left: 5rem;
+}
+
+.teamCoachingDescription .oneOneOneText {
+    margin-left: 0rem;
+    margin-right: 5rem;
 }
 
 .oneOneOneText h2 {
@@ -275,4 +281,64 @@
 .teamCoachingDescription,
 .mealPlanningDescription {
     margin-top: 12rem;
+}
+
+.finalThoughts {
+    margin-top: 8rem;
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    width: 100%;
+}
+
+.finalThoughts > * {
+    background-color: #ccc;
+    width: 90%;
+    max-width: 600px;
+}
+
+.finalThoughts h1 {
+    text-transform: uppercase;
+
+}
+
+.finalThoughts h2 { 
+    text-transform: none;
+
+}
+
+@media (max-width: 900px) {
+    .oneOnOneDescription,
+    .teamCoachingDescription,
+    .mealPlanningDescription {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: 3px solid var(--accent);
+        gap: 2rem;
+        margin-top: 5rem;
+        width: 90%;
+        max-width: 900px;
+    }
+
+    .oneOneOneText {
+        margin: 0;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .teamCoachingDescription .oneOneOneText {
+        margin-right: 0rem;
+    }
+
+    .oneOnOneDescription img,
+    .teamCoachingDescription img,
+    .mealPlanningDescription img {
+        display: none;
+    }
 }
