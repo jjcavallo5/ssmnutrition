@@ -89,6 +89,17 @@ const AppointmentsPage = () => {
                     </button>
                 </div>
             </div>
+
+            <div className={styles.oneOnOneTransition} />
+            <div className={styles.quoteContainer}>
+                <div className={styles.quote}>
+                    <p className={styles.quoteText}>
+                        "This is a really cool quote about how much I love
+                        Zahid's consulting company"
+                    </p>
+                    <h2>A loyal customer</h2>
+                </div>
+            </div>
             <Footer />
         </div>
     );
