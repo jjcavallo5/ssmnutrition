@@ -28,4 +28,16 @@ Website for online nutrition consulting
     -   Added basic homescreen
 
 -   01/29/2024 - 1 Hour
+
     -   Added appointment screen
+
+-   01/30/2024 - 2 Hours
+
+    -   Added cards to appointment screen
+    -   Fixed picture quality
+    -   Removed girl from pictures using magic eraser
+
+-   01/31/2024 - 2 Hours
+    -   Added quote to appointment screen
+    -   Added information to appointment screen
+    -   Fixed some padding issues
