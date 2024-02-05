@@ -282,3 +282,98 @@
 .mealPlanningDescription {
     margin-top: 12rem;
 }
+
+.blogContainer {
+    margin-top: 8rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 4rem 0;
+}
+ 
+.backgroundTexture {
+    transform: rotate('90deg');
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.blogContent {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff99;
+    padding: 2rem;
+}
+
+.blogImg {
+    height: 300px;
+    margin-top: 5rem;
+    z-index: 1;
+}
+
+.blogText {
+    color: var(--text);
+    background-color: var(--background);
+    z-index: 5;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    margin-left: -3rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    z-index: 0;
+    max-width: 400px;
+}
+
+.blogText h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+.blogText h2 {
+    margin: 0 0 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blogText li {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.blogText button {
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--text);
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.blogText button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .blogImg {
+        display: none;
+    }
+
+    .blogText {
+        color: var(--text);
+        background-color: var(--background);
+        z-index: 5;
+        padding: 1rem;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        z-index: 0;
+        max-width: 400px;
+    }
+}

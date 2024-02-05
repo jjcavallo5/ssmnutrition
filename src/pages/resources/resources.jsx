@@ -9,6 +9,8 @@ import oneOnOne from "../../images/1on1coaching.jpg";
 import groupCoaching from "../../images/groupCoaching.jpg";
 import planning from "../../images/planning.jpg";
 import hikingZahid from "../../images/hikingZahid.jpg";
+import backgroundTexture from "../../images/backgroundTexture.jpg";
+import blog from "../../images/blog.jpg";
 
 const ResourcesPage = () => {
     return (
@@ -86,6 +88,31 @@ const ResourcesPage = () => {
                             style={{ height: "3rem", backgroundColor: "#ccc" }}
                         />
                     </button>
+                </div>
+
+                <div className={styles.blogContainer}>
+                    <img
+                        src={backgroundTexture}
+                        alt=""
+                        srcset=""
+                        className={styles.backgroundTexture}
+                    />
+                    <div className={styles.blogContent}>
+                        <img src={blog} alt="" className={styles.blogImg} />
+                        <div className={styles.blogText}>
+                            <h1>Read My Blog</h1>
+                            <h2>My current thoughts on nutrition</h2>
+                            <ul>
+                                <li>Blog item number one</li>
+                                <li>
+                                    Blog item number two, these can be
+                                    multi-line
+                                </li>
+                                <li>Blog item number three</li>
+                            </ul>
+                            <button>Check it out!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer />
