@@ -7,6 +7,7 @@ import StarIcon from "../../icons/star";
 
 import zahidRunning from "../../images/runningZahid.jpg";
 import graduationZahid from "../../images/graduationZahid.jpg";
+import backgroundTexture2 from "../../images/backgroundTexture2.jpg";
 
 const AboutPage = () => {
     return (
@@ -44,35 +45,44 @@ const AboutPage = () => {
 
             <div className={styles.qualificationsContainer}>
                 <img
-                    src={graduationZahid}
-                    alt="An image of Zahid in his cap and gown"
+                    src={backgroundTexture2}
+                    alt=""
                     srcset=""
-                    className={styles.graduationZahid}
+                    className={styles.backgroundTexture}
                 />
 
-                <div className={styles.qualificationsRightSide}>
-                    <h1 className={styles.qualificationsHeader}>
-                        My Qualifications
-                    </h1>
-                    <div className={styles.qualificationsListItems}>
-                        <h2 className={styles.qualificationName}>
-                            Registered Dietitian
-                        </h2>
-                        <h3 className={styles.qualificationLocation}>
-                            IDK where this is from
-                        </h3>
-                        <h2 className={styles.qualificationName}>
-                            Bachelors of Science in Dietetics
-                        </h2>
-                        <h3 className={styles.qualificationLocation}>
-                            Wayne State University
-                        </h3>
-                        <h2 className={styles.qualificationName}>
-                            2 Years of Clinical Experience
-                        </h2>
-                        <h3 className={styles.qualificationLocation}>
-                            IDK where
-                        </h3>
+                <div className={styles.qualificationsContent}>
+                    <img
+                        src={graduationZahid}
+                        alt="An image of Zahid in his cap and gown"
+                        srcset=""
+                        className={styles.graduationZahid}
+                    />
+
+                    <div className={styles.qualificationsRightSide}>
+                        <h1 className={styles.qualificationsHeader}>
+                            My Qualifications
+                        </h1>
+                        <div className={styles.qualificationsListItems}>
+                            <h2 className={styles.qualificationName}>
+                                Registered Dietitian
+                            </h2>
+                            <h3 className={styles.qualificationLocation}>
+                                IDK where this is from
+                            </h3>
+                            <h2 className={styles.qualificationName}>
+                                Bachelors of Science in Dietetics
+                            </h2>
+                            <h3 className={styles.qualificationLocation}>
+                                Wayne State University
+                            </h3>
+                            <h2 className={styles.qualificationName}>
+                                2 Years of Clinical Experience
+                            </h2>
+                            <h3 className={styles.qualificationLocation}>
+                                IDK where
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,7 +135,7 @@ const AboutPage = () => {
                         </p>
                     </div>
                     <div className={styles.card}>
-                        <h1>Tony D</h1>
+                        <h1>Tony Dynamite</h1>
                         <h2>Jolly Pumpkin Cook</h2>
                         <div className={styles.starContainer}>
                             <StarIcon size={15} />
