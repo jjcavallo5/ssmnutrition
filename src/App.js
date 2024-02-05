@@ -6,7 +6,6 @@ import AppointmentsPage from "./pages/appointments/appointments";
 import ContactPage from "./pages/contact/contact";
 import HomePage from "./pages/home/home";
 import ResourcesPage from "./pages/resources/resources";
-import ReviewsPage from "./pages/reviews/reviews";
 
 function App() {
     return (
@@ -17,7 +16,6 @@ function App() {
                 <Route path="/contact" element={<ContactPage />} />
                 <Route exact path="/" element={<HomePage />} />
                 <Route path="/resources" element={<ResourcesPage />} />
-                <Route path="/reviews" element={<ReviewsPage />} />
             </Routes>
         </Router>
     );

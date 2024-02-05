@@ -3,6 +3,7 @@ import styles from "./about.module.css";
 
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
+import StarIcon from "../../icons/star";
 
 import zahidRunning from "../../images/runningZahid.jpg";
 import graduationZahid from "../../images/graduationZahid.jpg";
@@ -72,6 +73,100 @@ const AboutPage = () => {
                         <h3 className={styles.qualificationLocation}>
                             IDK where
                         </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.reviewsContainer}>
+                <h1>Reviews from customers</h1>
+                <h2>See what previous clients have to say</h2>
+
+                <div className={styles.reviewCardContainer}>
+                    <div className={styles.card}>
+                        <h1>Jeremy Cavallo</h1>
+                        <h2>D2 XC Runner</h2>
+                        <div className={styles.starContainer}>
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                        </div>
+
+                        <p className={styles.reviewContent}>
+                            <i>
+                                Zahid helped me out a ton with my nutrition!
+                                Because of him, I now get take out from Sy Thai
+                                at least twice a week and always fold when
+                                someone suggests McDonalds. The love handles are
+                                sure to be on their way as soon as I stop
+                                running!
+                            </i>
+                        </p>
+                    </div>
+                    <div className={styles.card}>
+                        <h1>Brady Heron</h1>
+                        <h2>Gambling Addict</h2>
+                        <div className={styles.starContainer}>
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                        </div>
+
+                        <p className={styles.reviewContent}>
+                            <i>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Atque tempore eum, maxime in
+                                incidunt dicta id ipsum at cupiditate qui
+                                expedita, quaerat unde.
+                            </i>
+                        </p>
+                    </div>
+                    <div className={styles.card}>
+                        <h1>Tony D</h1>
+                        <h2>Jolly Pumpkin Cook</h2>
+                        <div className={styles.starContainer}>
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                        </div>
+
+                        <p className={styles.reviewContent}>
+                            <i>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Odit explicabo error numquam
+                                aliquam natus nam, quibusdam impedit tempore ea
+                                deserunt, aliquid a voluptates, possimus neque.
+                                Iste commodi accusantium maiores minus!
+                            </i>
+                        </p>
+                    </div>
+                    <div className={styles.card}>
+                        <h1>Ty Nagy</h1>
+                        <h2>Certified Bum</h2>
+                        <div className={styles.starContainer}>
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                            <StarIcon size={15} />
+                        </div>
+
+                        <p className={styles.reviewContent}>
+                            <i>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quisquam mollitia tenetur et,
+                                voluptatum praesentium dolorum odio iusto
+                                molestiae, beatae, cumque maiores aliquam
+                                corrupti eveniet saepe culpa. Possimus alias
+                                voluptatibus eligendi beatae tempore molestias
+                                nemo iste.
+                            </i>
+                        </p>
                     </div>
                 </div>
             </div>

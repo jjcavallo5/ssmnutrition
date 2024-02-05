@@ -15,9 +15,6 @@ const NavBar = () => {
             <Link className={styles.links} to="/appointments">
                 Make Appointment
             </Link>
-            <Link className={styles.links} to="/reviews">
-                Reviews
-            </Link>
             <Link className={styles.links} to="/resources">
                 Resources
             </Link>
