@@ -1,5 +1,284 @@
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.headerTextCover {
+    z-index: 1;
+    background-color: #00000099;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.header h2 {
+    background-color: transparent;
+    color: white;
+}
+
+.coachingOptionsHeader {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    background-color: transparent;
+    color: var(--text);
+    width: 100%;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 0;
+}
+
+.coachingOptionsHeader2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.5rem;
+    /* padding: 0rem 0 6rem 0; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+
+    /* border-radius: 20px;
+    box-shadow: 1px 1px 5px black; */
+    background-color: #ccc;
+    width: 250px;
+    z-index: 1;
+
+}
+
+.card > * {
+    background-color: #ccc;
+
+}
+
+.cardImage {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h2 {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.card p {
     padding: 1rem;
+}
+
+.card button {
+    border: none;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+
+.card button:hover {
+    cursor: pointer;
+}
+
+.card button h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #ccc;
+}
+
+.oneOnOneTransition {
+    width: 100%;
+    height: 14rem;
+    border-top-left-radius: 1000px 100px;
+    border-top-right-radius: 1000px 100px;
+    background-color: var(--accented_background);
+    margin-top: -10rem;
+    z-index: 0;
+}
+
+.quoteContainer {
+    width: 100%;
+    background-color: var(--accented_background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0 4rem 0;
+
+}
+
+.quote {
+    width: 90%;
+    max-width: 500px;
+    padding: 0 1rem 0 1rem;
+}
+
+.quoteText {
+    font-size: 1.8rem;
+    border-top: 3px solid var(--accent);
+    padding: 3rem 2rem 1rem 2rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.quote h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.coachingOptions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.coachingOptions h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.oneOnOneDescription,
+.teamCoachingDescription,
+.mealPlanningDescription {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 3px solid var(--accent);
+    gap: 2rem;
+    margin-top: 5rem;
+    width: 900px;
+}
+
+.teamCoachingDescription {
+    justify-content: flex-end;
+}
+
+.oneOneOneText {
+    width: 90%;
+    max-width: 400px;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.teamCoachingDescription .oneOneOneText {
+    margin-left: 0rem;
+    margin-right: 5rem;
+}
+
+.oneOneOneText h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.oneOneOneText p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.oneOneOneText button {
+    border: none;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+
+.oneOneOneText button:hover {
+    cursor: pointer;
+}
+
+.oneOneOneText button h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.oneOnOneDescription img,
+.teamCoachingDescription img,
+.mealPlanningDescription img {
+    width: 250px;
+    border: 10px solid #444;
+    border-radius: 10px;
+    box-shadow: -5px 5px 15px #444;
+    position: absolute;
+    right: 2rem;
+    bottom: -1rem;
+}
+
+.teamCoachingDescription img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    left: 2rem;
+    bottom: -1rem;
+}
+
+.mealPlanningDescription img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.teamCoachingDescription,
+.mealPlanningDescription {
+    margin-top: 12rem;
 }
